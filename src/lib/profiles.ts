@@ -80,6 +80,8 @@ export const PROFILES: Profile[] = NAMES.map((name, i) => {
   };
 });
 
-export const REGISTER_URL = "https://kozenasite.site/register?ref=NOBLYBOY";
+export const SITE_URL = "https://btfixswahili.site";
+export const REGISTER_URL = "https://btfixswahili.site/register";
+export const REGISTER_PATH = "/register";
 
 export const formatTZS = (n: number) => n.toLocaleString("en-US");

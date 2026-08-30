@@ -103,31 +103,31 @@ function Index() {
       </header>
 
       <main className="mx-auto max-w-6xl px-4 pb-28 pt-6">
-        <section className="rounded-3xl bg-card p-4 shadow-[var(--shadow-card)]">
-          <div className="grid gap-3 sm:grid-cols-3">
-            <div className="rounded-2xl border border-border p-4">
-              <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-primary">
-                <Gift className="size-4" /> Welcome Bonus
+        <section className="rounded-3xl bg-card p-3 shadow-[var(--shadow-card)] sm:p-4">
+          <div className="grid grid-cols-3 gap-2 sm:gap-3">
+            <div className="rounded-2xl border border-border p-2.5 sm:p-4">
+              <p className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wide text-primary sm:text-xs">
+                <Gift className="size-3.5 sm:size-4" /> Welcome Bonus
               </p>
-              <p className="mt-2 text-2xl font-extrabold">
+              <p className="mt-2 text-lg font-extrabold sm:text-2xl">
                 TZS <span className="text-primary">6,000</span>
               </p>
-              <p className="mt-1 text-xs text-muted-foreground">Bonus offer — not withdrawable</p>
+              <p className="mt-1 text-[10px] text-muted-foreground sm:text-xs">Bonus offer — not withdrawable</p>
             </div>
-            <div className="rounded-2xl border border-border p-4">
-              <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-muted-foreground">
-                <Wallet className="size-4" /> Current Balance
+            <div className="rounded-2xl border border-border p-2.5 sm:p-4">
+              <p className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wide text-muted-foreground sm:text-xs">
+                <Wallet className="size-3.5 sm:size-4" /> Current Balance
               </p>
-              <p className="mt-2 text-2xl font-extrabold">TZS 0.00</p>
-              <p className="mt-1 text-xs text-muted-foreground">Available for withdrawal</p>
+              <p className="mt-2 text-lg font-extrabold sm:text-2xl">TZS 0.00</p>
+              <p className="mt-1 text-[10px] text-muted-foreground sm:text-xs">Available for withdrawal</p>
             </div>
-            <div className="rounded-2xl border border-border p-4">
-              <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-muted-foreground">
-                <ArrowDownToLine className="size-4" /> Withdraw
+            <div className="flex flex-col rounded-2xl border border-border p-2.5 sm:p-4">
+              <p className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wide text-muted-foreground sm:text-xs">
+                <ArrowDownToLine className="size-3.5 sm:size-4" /> Withdraw
               </p>
               <a
                 href={REGISTER_URL}
-                className="mt-3 flex w-full items-center justify-center rounded-xl px-4 py-3 text-sm font-bold text-primary-foreground"
+                className="mt-auto flex w-full items-center justify-center rounded-xl px-2 py-2.5 text-[11px] font-bold text-primary-foreground sm:px-4 sm:py-3 sm:text-sm"
                 style={{ background: "var(--gradient-brand)" }}
               >
                 Withdraw Funds

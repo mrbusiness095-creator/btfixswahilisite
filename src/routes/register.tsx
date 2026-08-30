@@ -87,7 +87,7 @@ function RegisterPage() {
     );
     navigate({
       to: "/payment",
-      search: profileId ? { profile: profileId } : {},
+      search: { profile: profileId ?? undefined },
     });
   }
 
